@@ -2,12 +2,12 @@
 
 ## ✨ Features
 
-- **Window Manager**: i3 / Sway (Tiling + efficient)
-- **Terminal**: Alacritty / Kitty / Foot
-- **Shell**: zsh with Oh My Zsh + Powerlevel10k
-- **Multiplexer**: tmux with custom status bar
-- **Editor**: (Pan / Vim / Helix depending on mood)
-- **Extras**: neofetch, htop, btop, custom scripts, SFML/C++ dev setup
+- **Window Manager**: i3  
+- **Terminal**: Alacritty 
+- **Shell**: zsh with Oh My Zsh 
+- **Multiplexer**: zellij with custom status bar
+- **Editor**: Helix 
+- **Extras**: neofetch, htop, feh, scrot
 
 ## 🧰 Tools
 
@@ -20,17 +20,5 @@
 | `neofetch` | System info preview             |
 | `git`      | Version control + SSH setup     |
 
-## 📁 Folder Structure
-~/Dotfiles/
-├── .config/
-│ ├── i3/
-│ ├── tmux/
-│ ├── zsh/
-│ ├── alacritty/
-│ ├── neofetch/
-│ └── ...
-├── scripts/
-├── install.sh
-└── README.md
-
 ![screenshot](./s.png)
+-# honestly i have no idea why i need this or why i wrote this 
