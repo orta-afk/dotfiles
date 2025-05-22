@@ -125,13 +125,6 @@ if command -v zellij &> /dev/null && [ -z "$ZELLIJ" ]; then
   exec zellij
 fi
 
-# Start SSH agent if not running
-if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-  eval "$(ssh-agent -s)"
-fi
-
-# Add key if not already added
-ssh-add -l | grep "id_ed25519" > /dev/null || ssh-add ~/Documents/git_sshKeys
 
 alias hx="helix"
 alias sleep="systemctl suspend"
@@ -139,5 +132,6 @@ alias shutdown="shutdown now"
 alias cls="clear"
 alias fx="firefox"
 alias zj="zellij"
+alias vid="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.0 output.mp4"
 
 eval "$(zoxide init zsh)"
