@@ -121,9 +121,9 @@ function y() {
 }
 
 # Auto start Zellij if not already inside Zellij
-if command -v zellij &> /dev/null && [ -z "$ZELLIJ" ]; then
-  exec zellij
-fi
+# if command -v zellij &> /dev/null && [ -z "$ZELLIJ" ]; then
+#   exec zellij
+# fi
 
 
 alias hx="helix"

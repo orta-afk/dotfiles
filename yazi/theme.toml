@@ -1,2 +1,17 @@
-[flavor]
-dark = "kanagawa-dragon"
+# [flavor]
+# dark = "kanagawa-dragon"
+# 
+[style]
+background = "#000000"
+foreground = "#c1c1c1"
+title = "#c1c1c1"
+border = "#333333"
+highlight = "#99bbaa"
+info = "#ddeecc"
+warning = "#5f8787"
+error = "#5f8787"
+success = "#ddeecc"
+cursor = "#c1c1c1"
+selection = "#999999"
+marker = "#aaaaaa"
+preview = "#888888"

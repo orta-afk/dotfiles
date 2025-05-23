@@ -1,17 +1,16 @@
 [env]
 TERM = "xterm-256color"
 
-
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/kanagawa_dragon.toml"
+    "~/.config/alacritty/themes/mythemes/black_metal_burzum.toml"
 ]
 
 [window]
-decorations = "none"
-opacity = 0.8
+decorations = "full"
+opacity = 0.9
 blur = false
-padding = { x = 12, y = 12 }
+# padding = { x = 12, y = 12 }
 dynamic_padding = true
 startup_mode = "Maximized"
 
@@ -24,7 +23,7 @@ offset = { x = 0, y = 1 }
 
 [cursor]
 style = { shape = "Block", blinking = "On" }
-blink_timeout = 0
+blink_timeout = 10
 unfocused_hollow = true
 
 [mouse]
@@ -32,4 +31,5 @@ hide_when_typing = true
 
 [selection]
 save_to_clipboard = true
+
 
