@@ -133,5 +133,6 @@ alias cls="clear"
 alias fx="firefox"
 alias zj="zellij"
 alias vid="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.0 output.mp4"
-
+alias fehpx="feh --zoom max --scale-down --no-xinerama --image-bg black --force-aliasing .
+"
 eval "$(zoxide init zsh)"
