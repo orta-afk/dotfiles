@@ -127,12 +127,19 @@ function y() {
 
 
 alias hx="helix"
-alias sleep="systemctl suspend"
-alias shutdown="shutdown now"
+alias sleep="sudo systemctl suspend"
+alias shutdown="sudo shutdown now"
 alias cls="clear"
 alias fx="firefox"
-alias zj="zellij"
+# alias zj="zellij"
 alias vid="ffmpeg -video_size 1366x768 -framerate 30 -f x11grab -i :0.0 output.mp4"
 alias fehpx="feh --zoom max --scale-down --no-xinerama --image-bg black --force-aliasing .
 "
+alias cd="z"
+alias ls='eza --icons'
+alias ll='eza -la --group-directories-first --icons'
+alias lt='eza --tree --level=2 --icons'
+alias lg='eza -l --git --icons'
+alias tree='eza -T --icons'
+
 eval "$(zoxide init zsh)"
