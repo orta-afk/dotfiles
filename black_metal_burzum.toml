@@ -1,0 +1,33 @@
+# ~/.config/alacritty/themes/black_metal_burzum.toml
+
+[colors.primary]
+background = "#000000"
+foreground = "#c1c1c1"
+
+[colors.normal]
+black   = "#000000"
+red     = "#5f8787"
+green   = "#ddeecc"
+yellow  = "#99bbaa"
+blue    = "#888888"
+magenta = "#999999"
+cyan    = "#aaaaaa"
+white   = "#c1c1c1"
+
+[colors.bright]
+black   = "#121212"
+red     = "#5f8787"
+green   = "#ddeecc"
+yellow  = "#99bbaa"
+blue    = "#888888"
+magenta = "#999999"
+cyan    = "#aaaaaa"
+white   = "#c1c1c1"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#c1c1c1"
+
+[colors.selection]
+text = "#000000"
+background = "#999999"
