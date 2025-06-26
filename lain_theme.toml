@@ -1,0 +1,30 @@
+[window]
+opacity = 1.0  # equivalent of "alpha = 100" in your JSON
+
+[colors.primary]
+background = "#000000"
+foreground = "#d8cfc0"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#d8cfc0"
+
+[colors.normal]
+black   = "#000000"
+red     = "#C1697D"
+green   = "#A48B78"
+yellow  = "#BC7181"
+blue    = "#CC7588"
+magenta = "#BBA88D"
+cyan    = "#CC8F8E"
+white   = "#d8cfc0"
+
+[colors.bright]
+black   = "#979086"
+red     = "#C1697D"
+green   = "#A48B78"
+yellow  = "#BC7181"
+blue    = "#CC7588"
+magenta = "#BBA88D"
+cyan    = "#CC8F8E"
+white   = "#d8cfc0"
