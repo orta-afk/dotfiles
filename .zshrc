@@ -143,3 +143,6 @@ alias lg='eza -l --git --icons'
 alias tree='eza -T --icons'
 
 eval "$(zoxide init zsh)"
+
+[ -z "$TMUX" ] && (tmux attach || tmux new-session)
+
